@@ -14,6 +14,6 @@ public class HelloWorldController {
     }
     @GetMapping("/secret-bases")
     public String admin() {
-        return "https://www.wildcodeschool.com/fr-FR";
+        return "<a href = 'https://www.wildcodeschool.com/fr-FR'>Secret-bases</a>";
     }
 }
